@@ -1,0 +1,202 @@
+body,div,ul,li,p,table,tr,td,th{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	text-align: center;
+}
+.container{
+	width: 1440px;
+	margin: 0px auto;
+	font-family: "微软雅黑";/*文字字体为微软雅黑*/
+	position: relative;/*相对定位*/
+	text-align: left;  
+	background-size: 100%;
+}
+.header{
+	border-bottom: 4px solid #a9a9a9;
+}
+.nav{
+	height: 73px;
+	width: 1000px;
+	margin: 0px auto;
+}
+.nav img{
+	margin-top: 8px;
+}
+.nav ul{
+	float: right;
+	width: 600px;	
+}
+.nav ul li{
+	float: left;/*左浮动*/
+	width: 150px;
+	height: 77px;
+	text-align: center;
+	font-size: 18px ;
+	list-style: none;
+}
+.nav ul li a{
+	color: #333;
+	display: block;
+	height: 77px;
+	line-height: 77px;
+	text-align: center;
+	font-size: 22px;
+	text-decoration: none;
+	letter-spacing: 2px;/*字间距为2px*/
+	cursor: pointer;/*鼠标移动到该元素鼠标手势为小手*/	
+}
+.nav ul li a:hover{/*鼠标移动到该元素上，该标签字体颜色为#1a7cbf，下边框为4px 实体 颜色#1a7cbf*/
+	cursor: pointer;
+	color: #1a7cbf;
+	border-bottom: 4px solid #1a7cbf;
+}
+.active{
+	cursor: pointer;
+	color: #1a7cbf !important;/*!important 加权重*/
+	border-bottom: 4px solid #1a7cbf;	
+}
+.bannr>img{
+	display: block;
+}
+/*公司介绍*/
+.content1{
+	width: 960px;
+	margin: 0px auto;
+	color: #333333;
+	margin-bottom: 60px;
+}
+.company_01{
+	margin-top: 45px;
+}
+.company_02{
+	font-size: 18px;
+	line-height: 43px;
+	color: #333333;
+	text-indent: 2em;
+	
+}
+.hide{
+	display: none;/*隐藏属性*/
+}
+/*校园招聘*/
+.content2{
+	width: 960px;
+	margin: 0 auto;
+	margin-bottom: 60px;
+}
+.job_02{
+	width: 920px;
+	margin: 20px auto;
+	font-size: 16px;
+	line-height: 30px;
+	color: #333333;
+}
+.job{
+	width: 100%;
+	margin: 20px auto;
+}
+.txt1{
+	width: 93.5%;
+	margin: 0 auto;
+	color: #05432a;
+	font-size: 18px;
+	font-weight: bold;
+}
+.txt2{
+	width: 93.5%;
+	margin: 0 auto;
+	font-size: 16px;
+	line-height: 40px;
+	text-indent: 2em;/*首行缩进*/
+}
+.txt3{
+	width: 93.5%;
+	margin: 0 auto;
+	font-size: 16px;
+	line-height: 40px;
+	text-indent: 3.5em;
+}
+.txt2 span{
+	color: #1a7cbf;
+	margin-right: 10px;
+	font-size: 20px;
+}
+.apply{
+	height: 40px;	
+}
+.left_apply{
+	margin-left: 3%;
+	width: 83.6%;
+	display: inline-block;
+	border: 1px solid rgba(36,81,76,0.2);/*边框颜色，不透明度20%*/
+}
+.right_apply{
+	width: 13%;
+	display: inline-block;/*转换为行内块级元素*/
+}
+.right_apply a{
+	display: block;/*转换为块级元素*/
+	width: 124px;
+	height: 38px;
+	line-height: 38px;
+	font-size: 18px;
+	color: #FFFFFF;
+	text-decoration: none;/*去下划线*/
+	text-align: center;
+	background: url(../images/icon.png) no-repeat center center;
+}
+#tab1{
+	width: 913px;
+	margin: 0 auto;	
+	color: #333333;
+}
+#tab1 tr th{
+	background: #a4d7d1;
+	font-size: 18px;
+	height: 51px;
+	line-height: 51px;
+	text-align: center;	
+}
+#tab1 tr td{
+	font-size: 16px;
+	height: 51px;
+	line-height: 51px;
+	text-align: center;
+}
+.txt4{
+	width: 913px;
+	margin: 20px auto;
+	height: 3px;
+	background: #4faa9f;
+}
+.txt5{
+	font-size: 20px;
+	color: #4faa9f;
+	text-align: right;
+}
+/*校招流程*/
+.content3{
+	margin-bottom: 60px;
+}
+.trip{
+	width: 960px;
+	margin: 0 auto;/*上下为0，左右自适应*/
+	margin-top: 45px;
+}
+
+
+/*版权*/
+.footer{	
+	clear: both;/*清除浮动*/
+	width: 100%;
+	margin: 0px auto;
+	background: #1a7cbf;
+	text-align: center;
+	color: #fff;	
+	/*垂直高度且上下居中*/
+	height: 30px;
+	line-height: 35px;
+	font-size: 12px;
+}
